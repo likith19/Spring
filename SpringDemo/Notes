@@ -1,0 +1,2 @@
+To import config files: <import resource=""/>
+To import Java Based Config: @Import({JdbcConfig.class, businessConfig.class})

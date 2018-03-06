@@ -1,0 +1,15 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+    
+	<!-- <import resource=""/> -->
+	<bean id="firstBean" class="com.prc.bean.FirstBean" />
+	<bean id="student" class="com.prc.bean.Student" >
+		<property name="rollNumber" value="10"></property>
+		<property name="name" value="Likith"></property>
+	</bean>
+	<bean id="studentDynamic" class="com.prc.bean.Student" >
+	</bean>
+	
+</beans>
